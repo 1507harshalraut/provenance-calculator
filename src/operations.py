@@ -41,3 +41,19 @@ def modulo(a: float, b: float) -> float:
     return a % b
 
 
+#Mrunal Test
+
+def fibonacci(n: int) -> int:
+    if n <= 0:
+        raise ValueError("Input should be a positive integer")
+    elif n == 1 or n == 2:
+        return 1
+    else:
+        a, b = 1, 1
+        for _ in range(3, n + 1):
+            a, b = b, a + b
+        return b
+
+
+
+square=lambda x:x*x
