@@ -57,3 +57,18 @@ def fibonacci(n: int) -> int:
 
 
 square=lambda x:x*x
+
+
+#
+#Mrual Test 2
+
+def reverse_string(s):
+    return s[::-1]
+
+print(reverse_string("harshal"))
+
+
+
+
+a=1+2
+print(a)
