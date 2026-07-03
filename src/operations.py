@@ -72,3 +72,5 @@ print(reverse_string("harshal"))
 
 a=1+2
 print(a)
+
+SQUARE=lambda x: x * x
