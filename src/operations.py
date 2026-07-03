@@ -57,3 +57,17 @@ def fibonacci(n: int) -> int:
 
 
 square=lambda x:x*x
+
+# Plugin Version 5 Test
+
+a=10
+b=5
+c=a+b
+print(c)
+
+
+def reverse_string(s):
+    return s[::-1]
+
+print(reverse_string("hello"))  
+square=lambda x:x*x
